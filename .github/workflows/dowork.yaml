@@ -9,7 +9,7 @@ name: dosing
 #
 on:
   schedule: # 每周五、六的晚上九点四十执行 时差为 +8
-    - cron: '40 12 * * 5,6'
+    - cron: '40 13 * * 5,6'
 
 
 jobs:
